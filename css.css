@@ -1,0 +1,52 @@
+.Page-wrapper {
+background-color: green;
+}
+
+
+header {
+  position: fixed;
+  display: grid;
+  grid: 'logo nav';
+  grid-template-columns: 1fr 2fr;
+  top: 0;
+  min-height: 75px;
+  padding: 0px 20px;
+  width: 90%;
+  justify-content: space-between;
+  @media (max-width: 600px){
+
+  }
+
+}
+
+.logo {
+
+}
+.img-logo {
+  height: 90%;
+  display: block;
+  padding-top: 1%;
+
+}
+.nav-bar {
+  ;
+
+}
+
+.nav-ul {
+  display: grid;
+  list-style-type: none;
+  grid-template-columns: 1fr 1fr 1fr;
+
+
+}
+
+a{
+  text-decoration: none;
+  color: #003F62;
+  font-weight: bold;
+  font-family: "Trebuchet MS", fantasy;
+}
+
+.video-section{
+}
