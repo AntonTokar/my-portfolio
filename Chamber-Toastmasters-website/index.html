@@ -1,10 +1,10 @@
 <!DOCUMENT html>
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 <html>
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   <head>
     <title>Chamber TM</title>
     <link rel="stylesheet" type="text/css" href="css.css">
+    <link rel="shortcut icon" type="image/png" href="favicon-16.png"/>
   </head>
   <body>
   <div class="Page-wrapper">
@@ -15,17 +15,28 @@
 
     <nav class="nav-bar" id="nav-bar">
       <ul class="nav-ul">
-        <li><a id="nav-link" href="#">Why</a></li>
-        <li><a id="nav-link" href="#">How</a></li>
+        <li><a id="nav-link" class="why" href="#">Why</a></li>
+        <li><a id="nav-link" class="why" href="#">How</a></li>
         <li><a id="nav-link" href="#">When/Where</a></li>
       </ul>
     </nav>
     </header>
 
     <div class="video-section">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/383gehepo8M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/383gehepo8M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
 
+<div class="div-email">
+      <form action="email-form" class="email-form">
+        <div>
+        <input id="email "type="email" placeholder="Your email"></div>
+        <div>
+        <input id="submit" type="submit" name="submit-email" value="Get Started!">
+      </div>
+
+
+      </form>
+</div>
 
 
 
@@ -39,33 +50,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</div>
 
 
   </body>

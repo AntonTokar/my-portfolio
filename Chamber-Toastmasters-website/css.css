@@ -1,21 +1,18 @@
 .Page-wrapper {
-  background-color: black;
+
 }
 
 
-header {
-  position: fixed;
+header {;
+  background-color: #F8F6F0;
+  border-color: black;
+  border-width: 5px;
+  position: sticky;
   display: grid;
-  grid: 'logo nav';
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr;
   top: 0;
   min-height: 75px;
-  padding: 0px 20px;
-  width: 90%;
-  justify-content: space-between;
-  @media (max-width: 600px){
-
-  }
+  position: relative;
 
 }
 
@@ -29,7 +26,6 @@ header {
 
 }
 .nav-bar {
-  ;
 
 }
 
@@ -37,8 +33,15 @@ header {
   display: grid;
   list-style-type: none;
   grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+vertical-align: middle;
+padding: 25px;
+margin: 0px;
+  ;
 
-
+}
+.nav-ul > li {
+  text-align: center;
 }
 
 a{
@@ -46,7 +49,28 @@ a{
   color: #003F62;
   font-weight: bold;
   font-family: "Trebuchet MS", fantasy;
+
 }
 
 .video-section{
+  margin-left: 20%;
+  margin-right: 20%;
+  display: grid;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.email-from{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+
+}
+
+.div-email {
+  position: absolute;
+  align-self: center;
+  margin: 10px 40%;
+
 }
